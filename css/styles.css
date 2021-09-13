@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /***********************************
 TAG
@@ -15,8 +20,27 @@ ID
 body{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    color: 000;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+main{
+    margin-top: 50px;
 }
 
+nav{
+    padding: 10px;
+    background-color: #fff;
+}
+img{
+    max-width: 100%;
+}
+
+/* Grandezza titoli */
 h1{
    font-size: 77px; 
 }
@@ -34,6 +58,16 @@ h5{
 /***********************************
 CLASSI
 ***********************************/
+
+/* Container */
+.container{
+    width: 1010px;
+    margin: 0 auto;
+}
+.container-large{
+    width: 1367px;
+    margin: 0 auto;
+}
 
 /* Colori Background */
 .bg-primary{
@@ -65,25 +99,98 @@ float: left;
 }
 
 .col_1_9 {
-width: calc(100% / 9);
+    width: calc(100% / 9);
 }
 
 .col_2_9 {
-width: calc(100% / 9 * 2);
+    width: calc(100% / 9 * 2);
 }
 
 .col_3_9 {
-width: calc(100% / 9 * 3);
+    width: calc(100% / 9 * 3);
 }
 
 .col_4_9 {
-width: calc(100% / 9 * 4);
+    width: calc(100% / 9 * 4);
 }
 
 .col_5_9 {
-width: calc(100% / 9 * 5);
+    width: calc(100% / 9 * 5);
 }
 
 .col_6_9 {
-width: calc(100% / 9 * 6);
+    width: calc(100% / 9 * 6);
+}
+.col_9_9 {
+    width: 100%;
+}
+
+/* Header */
+
+.header__sx,
+.header__dx{
+    float: left;
+    width: 50%;
+}
+
+.header__sx ul,
+.header__dx ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.header__sx ul li,
+.header__dx ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__logo,
+.header__menu1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__menu2{
+    text-align: right;
+}
+.header__menu2 li:last-child a{
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 10px;
+}
+nav a,
+nav a:hover,
+nav a:focus{
+    color: #000;
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.herosection__space{
+    position: relative;
+    top: 100px;
+}
+.herosection h1{
+    padding-bottom: 48px;
+    line-height: 1em;
+}
+.herosection__text{
+    padding-bottom: 24px;
+}
+.herosection .btn{
+    margin-bottom: 12px;
+}
+
+/* General */
+.btn{
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #0061ff;
+    color: #fff;
 }
