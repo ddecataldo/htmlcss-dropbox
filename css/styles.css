@@ -3,3 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/***********************************
+TAG
+***********************************/
+
+/***********************************
+ID
+***********************************/
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+h1{
+   font-size: 77px; 
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+h4,
+h5{
+    font-size:16px;
+}
+
+/***********************************
+CLASSI
+***********************************/
+
+/* Colori Background */
+.bg-primary{
+    background-color: #b4d0e7;
+}
+.bg-dark{
+    background-color: #000;
+}
+
+/* Colori Testi */
+.color-violet{
+    color: #61082b;
+}
+.color-grey{
+    color: #637381;
+}
+
+
+/* Colonne */
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+[class*="col_"] {
+float: left;
+}
+
+.col_1_9 {
+width: calc(100% / 9);
+}
+
+.col_2_9 {
+width: calc(100% / 9 * 2);
+}
+
+.col_3_9 {
+width: calc(100% / 9 * 3);
+}
+
+.col_4_9 {
+width: calc(100% / 9 * 4);
+}
+
+.col_5_9 {
+width: calc(100% / 9 * 5);
+}
+
+.col_6_9 {
+width: calc(100% / 9 * 6);
+}
