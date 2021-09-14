@@ -20,7 +20,7 @@ ID
 body{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    color: 000;
+    color: #000;
 }
 header{
     position: fixed;
@@ -192,6 +192,10 @@ nav a:focus{
 }
 .price .price__box{
     border: 1px solid #efefef;
+    min-height: 960px;
+}
+.price .price__box--hauto{
+    min-height: auto;
 }
 .price .price__header{
     text-align: center;
@@ -203,13 +207,22 @@ nav a:focus{
     padding: 20px;
 }
 .price .price__title h3,
-.price .price__title h4{
-    padding-bottom: 12px;;
+.price .price__title h4,
+.price .price__description h5{
+    padding-bottom: 12px;
 }
 .price .price__description ul{
     list-style: none;
     color: #637381;
     padding-bottom: 48px;
+    padding-left: 20px;
+}
+.price .price__description ul li{
+    margin: 10px 0;
+}
+.price .price__description ul li i{
+    margin-left: -20px;
+    color: #0061ff;
 }
 .price .price__description .btn{
     width: 100%;
@@ -217,7 +230,7 @@ nav a:focus{
     margin-bottom: 24px;
 }
 .price .price__description hr{
-    margin-top: 24px;
+    margin: 24px 0;
     width: 20%;
     border-top: 1px solid #637381;
 }
@@ -236,4 +249,7 @@ nav a:focus{
 /* Utility */
 .pb24{
     padding-bottom: 24px;
+}
+.mb24{
+    margin-bottom: 24px;
 }
