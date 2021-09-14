@@ -245,14 +245,21 @@ nav a:focus{
     background-color: #0061ff;
     color: #fff;
 }
-
+.btn-dark{
+    border: 1px solid;
+    background-color: transparent;
+    color: #000;
+}
 /* Utility */
-.pt96{
-    padding-top:96px;
+.pb96{
+    padding-bottom:96px;
 }
 .pb24{
     padding-bottom: 24px;
 }
 .mb24{
     margin-bottom: 24px;
+}
+.mb48{
+    margin-bottom: 48px;
 }
