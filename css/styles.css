@@ -89,13 +89,15 @@ CLASSI
 /* Colonne */
 
 .row:after {
-content: "";
-display: table;
-clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 [class*="col_"] {
-float: left;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .col_1_9 {
@@ -184,6 +186,42 @@ nav a:focus{
     margin-bottom: 12px;
 }
 
+/* Tabella Prezzi */
+.price{
+    margin-top: 148px;
+}
+.price .price__box{
+    border: 1px solid #efefef;
+}
+.price .price__header{
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    padding: 5px;
+}
+.price .price__title,
+.price .price__description{
+    padding: 20px;
+}
+.price .price__title h3,
+.price .price__title h4{
+    padding-bottom: 12px;;
+}
+.price .price__description ul{
+    list-style: none;
+    color: #637381;
+    padding-bottom: 48px;
+}
+.price .price__description .btn{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.price .price__description hr{
+    margin-top: 24px;
+    width: 20%;
+    border-top: 1px solid #637381;
+}
+
 /* General */
 .btn{
     padding: 10px 15px;
@@ -193,4 +231,9 @@ nav a:focus{
 .btn-primary{
     background-color: #0061ff;
     color: #fff;
+}
+
+/* Utility */
+.pb24{
+    padding-bottom: 24px;
 }
