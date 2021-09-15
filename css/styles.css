@@ -31,7 +31,9 @@ header{
 main{
     margin-top: 50px;
 }
-
+footer{
+    color:#fff;
+}
 nav{
     padding: 10px;
     background-color: #fff;
@@ -293,6 +295,30 @@ nav a:focus{
     float: right;
 }
 
+/* Footer */
+footer ul{
+    list-style: none;
+}
+footer .row{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+footer a,
+footer a:hover,
+footer a:focus{
+    color:#fff;
+    text-decoration: none;
+}
+footer h5{
+    margin-bottom: 12px;
+}
+footer li{
+    padding: 5px 0;
+}
+.col_5{
+    width: calc(100% / 5);
+}
+
 /* General */
 .btn{
     padding: 10px 15px;
@@ -312,6 +338,7 @@ nav a:focus{
     background-color: transparent;
     color: #000;
 }
+
 /* Utility */
 .pb96{
     padding-bottom:96px;
