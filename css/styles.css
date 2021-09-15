@@ -276,6 +276,11 @@ nav a:focus{
     margin-bottom: 40px;
 }
 
+/* Sezione CTA 2 */
+.section__cta2{
+    padding: 96px 0;
+}
+
 /* General */
 .btn{
     padding: 10px 15px;
@@ -285,6 +290,10 @@ nav a:focus{
 .btn-primary{
     background-color: #0061ff;
     color: #fff;
+}
+.btn-white{
+    background-color: #fff;
+    color: #000;
 }
 .btn-dark{
     border: 1px solid;
@@ -303,4 +312,7 @@ nav a:focus{
 }
 .mb48{
     margin-bottom: 48px;
+}
+.text-right{
+    text-align: right;
 }
