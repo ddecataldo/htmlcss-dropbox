@@ -281,6 +281,18 @@ nav a:focus{
     padding: 96px 0;
 }
 
+/* Sezione domande frequenti */
+.faq__list{
+    list-style-type: none;
+}
+.faq__list li{
+    padding: 20px 0;
+    border-bottom: 1px solid #637381;
+}
+.faq__list li span{
+    float: right;
+}
+
 /* General */
 .btn{
     padding: 10px 15px;
@@ -312,6 +324,9 @@ nav a:focus{
 }
 .mb48{
     margin-bottom: 48px;
+}
+.mb96{
+    margin-bottom: 96px;
 }
 .text-right{
     text-align: right;
