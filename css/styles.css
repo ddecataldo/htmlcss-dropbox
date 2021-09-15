@@ -235,6 +235,47 @@ nav a:focus{
     border-top: 1px solid #637381;
 }
 
+/* Sezione con Loghi */
+.square__aside,
+.square__center{
+    float: left;
+}
+.square__aside{
+    width: 30%;
+}
+.square__center{
+    width: 40%;
+}
+.square__aside .square__logo{
+    float: left;
+    width: 50%;
+    height: calc( 30vw / 2);
+    position: relative;
+}
+.square__aside .square__logo img {
+    position: absolute;
+    max-width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%); /* Cambio colore SVG */
+}
+.square__center{
+    min-height: 30vw;
+    float:left;
+    padding: 45px;
+    background-color: #F5F5F5;
+}
+.square__center img {
+    width: 30%;
+}
+
+.square__center hr {
+    width: 15%;
+    border-top: 1px solid #dcdcdf;
+    margin-bottom: 40px;
+}
+
 /* General */
 .btn{
     padding: 10px 15px;
