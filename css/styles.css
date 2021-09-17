@@ -301,7 +301,7 @@ footer ul{
 }
 footer .row{
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 24px;
 }
 footer a,
 footer a:hover,
@@ -314,6 +314,9 @@ footer h5{
 }
 footer li{
     padding: 5px 0;
+}
+footer hr{
+    width: 100px;
 }
 .col_5{
     width: calc(100% / 5);
@@ -345,6 +348,12 @@ footer li{
 }
 .pb24{
     padding-bottom: 24px;
+}
+.pb48{
+    padding-bottom: 48px;
+}
+.mt24{
+    margin-top: 24px;
 }
 .mb24{
     margin-bottom: 24px;
